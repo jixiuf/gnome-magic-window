@@ -14,11 +14,14 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 const BINDINGS = [
-  {
-    shortcut: 'F12',
-    title: 'Terminator',
-    command: 'terminator'
-  },
+    // for me:
+    // space=super+control
+    // caplock=super+alt
+  {shortcut: '<Super><Control>d', title: 'Gnome-terminal', command: '/usr/bin/gnome-terminal'},
+  {shortcut: '<Super><Control>f', title: 'Google-chrome', command: '/opt/google/chrome/chrome'},
+  {shortcut: '<Super><Control>e', title: 'emacs', command: '/snap/bin/emacs'},
+  {shortcut: '<Super><Control>g', title: 'Org.gnome.Nautilus', command: '/usr/bin/nautilus'},
+  {shortcut: '<Super><Alt>f', title: 'firefox', command: '/snap/bin/firefox'},
   // More bindings can be added, for example:
   // {
   //   shortcut: 'F11',
